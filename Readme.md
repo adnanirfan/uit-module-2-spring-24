@@ -8,6 +8,12 @@
   - Input
   - Counter
 
+## Class-4 9th June - React
+
+- Props
+- Child Component
+- List Rendering
+
   ## Assignment
 
         - Add Delete and Edit functionality in Todo App
