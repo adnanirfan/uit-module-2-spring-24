@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ToggleMessage from "./ToggleMessage";
 
 function App() {
   const [text, setText] = useState();
@@ -8,13 +9,14 @@ function App() {
     setText(event.target.value);
   };
 
+  return <ToggleMessage />;
   return (
     <div className="App">
       <header className="App-header">
         <input
           value={text}
-          // onChange={(event) => setText(event.target.value)}
-          onChange={onTextChange}
+          onChange={(event) => setText(event.target.value)}
+          // onChange={onTextChange}
           placeholder="Type Here"
         />
         <h1>
