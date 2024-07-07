@@ -18,3 +18,28 @@
 
         - Add Delete and Edit functionality in Todo App
         - Context API
+
+## Class-6
+
+- Revision
+- Ternary Operator
+
+  ## Assignment
+
+      - Toggle Button to show/hide Text
+
+## Class-7
+
+- useEffect
+  - Mount
+  - Rerender
+  - Unmount
+  - Dependency List
+- Async Await
+- Data fetching using fetch
+- Try Catch
+
+  ## Assignment
+
+      - Promise
+      - React Routing
