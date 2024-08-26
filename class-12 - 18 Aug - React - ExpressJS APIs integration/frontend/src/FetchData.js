@@ -15,6 +15,9 @@ const FetchData = () => {
     const response = await fetch("http://localhost:4000/save", {
       method: "POST",
       body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json"
+      }
     });
     console.log("response:>", response);
     const res = await response.json();
