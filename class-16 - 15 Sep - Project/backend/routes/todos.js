@@ -22,8 +22,14 @@ router.post("/todos", async (req, res) => {
 });
 
 router.get("/todos", async (req, res) => {
+  const userId = req.query.user_id;
+  if (!userId)
+    return res.status(404).send({
+      error: "Invalid User",
+    });
+
   try {
-    const todos = await Todo.find({}, null, { populate: "user" });
+    const todos = await Todo.find({ user: userId }, null, { populate: "user" });
     res.send(todos);
   } catch (e) {
     res.status(500).send({

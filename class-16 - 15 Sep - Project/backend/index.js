@@ -20,8 +20,9 @@ app.use(cors());
 
 app.use(userRouter);
 app.use(todoRouter);
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+
+app.use("*", (req, res) => {
+  res.send("Not Found!");
 });
 
 app.listen(4000, () => {

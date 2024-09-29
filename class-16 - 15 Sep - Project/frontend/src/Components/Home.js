@@ -2,7 +2,7 @@ import { useContext } from "react";
 import UserContext from "../userContext";
 
 const Home = () => {
-  const x = useContext(UserContext);
+  const x = {}; //  useContext(UserContext);
   console.log(x);
   return (
     <div>
