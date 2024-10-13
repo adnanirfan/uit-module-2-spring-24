@@ -53,7 +53,7 @@
 
 - Frontend Deployment:
 
-  - Github Repo: adnanirfan.github.io
+  - Github Repo: (adnanirfan.github.io)[https://adnanirfan.github.io]
 
 - Server Deployment:
   - (Oracle Free tier Server)[https://www.youtube.com/watch?app=desktop&v=g7sP33QtuxM&ab_channel=IdeaSpot]
